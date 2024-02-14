@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "vazir";
+  src: url("./assets/fonts/Vazir.woff2") format("woff2"),
+    url("./assets/fonts/Vazir.woff") format("woff");
+}
+
+@font-face {
+  font-family: "FaNum";
+  src: url("./assets/fonts/IRANSansFaNum.ttf");
+}
+
+.css-y24uck-MuiButtonBase-root-MuiPaginationItem-root {
+  font-family: "FaNum" !important;
+}
+
+.MuiButtonBase-root {
+  font-family: "FaNum" !important;
+}
+
+.MuiPagination-ul {
+  font-family: "FaNum" !important;
+}
